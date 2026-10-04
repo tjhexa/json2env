@@ -1,10 +1,28 @@
-# json2env — JSON ⇄ .env Converter (offline revamp)
+<p align="center">
+  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="18" rx="3"/><polyline points="7 12 10 9 7 6"/><line x1="12" y1="15" x2="17" y2="15"/></svg>
+</p>
 
-> Source: <https://github.com/tjhexa/json2env>
+<h1 align="center">json2env</h1>
+
+<p align="center"><strong>JSON ⇄ .env Converter — fast, private, fully offline.</strong></p>
+
+<p align="center">
+  <a href="https://json2env.tjhexa.com"><strong>● Live Demo — json2env.tjhexa.com</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/tjhexa/json2env">Source on GitHub</a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/offline-100%25_local-34d399?style=flat-square" alt="100% offline" />
+  <img src="https://img.shields.io/badge/deps-0-0b1220?style=flat-square" alt="zero dependencies" />
+  <img src="https://img.shields.io/badge/themes-dark_+_light-9fadc4?style=flat-square" alt="dark and light themes" />
+</p>
+
+> Source: <https://github.com/tjhexa/json2env> · Live: <https://json2env.tjhexa.com>
 
 Convert JSON to `.env` and back. Fast, private, fully offline — no uploads, no tracking, zero dependencies.
 
-Open `index.html` directly in a browser, or serve the folder statically. Everything runs locally.
+**Try it now → <https://json2env.tjhexa.com>** — or open `index.html` directly in a browser. Everything runs locally.
 
 ## Quick start
 
@@ -104,7 +122,7 @@ for a code tool.
 
 - `node --check app.js` — syntax OK
 - Conversion unit probes — flatten, empty arrays, top-level-object guard — pass
-- `grep` — zero `http(s)://`, CDN, `@import`, or Bootstrap references
+- `grep` — zero external *resources* (no CDN, `@import`, webfonts, or Bootstrap); only plain `<a href>` links to GitHub
 - Guideline self-check — headings, labels, live regions, focus,
   reduced-motion, touch, safe-area — all pass
 - ID wiring check — every `getElementById` target exists in `index.html`
